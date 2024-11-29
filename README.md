@@ -6,12 +6,18 @@ Role-Based Access Control (RBAC) to restrict access to specific resources based 
 JWT (JSON Web Tokens) for secure session management and token-based authentication.
 MongoDB for storing user and role data.
 ### Technologies Used
--Node.js: JavaScript runtime.
--Express.js: Web framework for building RESTful APIs.
--MongoDB: NoSQL database for storing users and roles.
--JWT: JSON Web Token for secure token-based authentication.
--Bcrypt.js: Library for hashing passwords.
--dotenv: Environment variable management.
+Node.js: JavaScript runtime.
+
+Express.js: Web framework for building RESTful APIs.
+
+MongoDB: NoSQL database for storing users and roles.
+
+JWT: JSON Web Token for secure token-based authentication.
+
+Bcrypt.js: Library for hashing passwords.
+
+dotenv: Environment variable management.
+
 ### Setup Instructions
 1. Clone the Repository
 ````
@@ -29,7 +35,7 @@ npm install
 MONGO_URI=mongodb://localhost:27017/rbac_db
 JWT_SECRET=your_jwt_secret_key
 ````
-Replace your_jwt_secret_key with a secret key for JWT signing.
+-Replace your_jwt_secret_key with a secret key for JWT signing.
 
 4. Run MongoDB
 Ensure that MongoDB is running on your local machine, or use a cloud database service like MongoDB Atlas.
