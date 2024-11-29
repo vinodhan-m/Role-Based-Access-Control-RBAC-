@@ -51,6 +51,7 @@ The server will run on http://localhost:5000.
 Authentication
 1. Register User
 Endpoint: POST /auth/register
+
 -Request Body:
 ````
 {
@@ -60,8 +61,11 @@ Endpoint: POST /auth/register
 }
 ````
 -Response: User registered successfully
+
 2. Login User
+
 -Endpoint: POST /auth/login
+
 -Request Body:
 ````
 {
