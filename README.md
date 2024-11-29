@@ -30,10 +30,13 @@ MONGO_URI=mongodb://localhost:27017/rbac_db
 JWT_SECRET=your_jwt_secret_key
 ````
 Replace your_jwt_secret_key with a secret key for JWT signing.
+
 4. Run MongoDB
 Ensure that MongoDB is running on your local machine, or use a cloud database service like MongoDB Atlas.
-5. Start the Server
+
+6. Start the Server
 -Run the server using nodemon for auto-reloading during development:
+
 ````
 npm run dev
 ````
